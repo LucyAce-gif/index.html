@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - My Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <?php include 'header.html'; ?>
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="C:\Users\GoMC_PC\Desktop\Gallery\download.jpg" width="1000" height="600">
+            <img src="C:\Users\GoMC_PC\Desktop\Gallery\download (1).jpg"width="1000" height="600">
+            <img src="C:\Users\GoMC_PC\Desktop\Gallery\download (3).jpg"width="1000" height="600"> 
+            <img src="C:\Users\GoMC_PC\Desktop\Gallery\download (2).jpg" width="1000" height="600">
+			
+        </div>
+    </div>
+    <?php include 'footer.html'; ?>
+    <a href="Home.html">Home</a>
+	
+</body>
+</html>

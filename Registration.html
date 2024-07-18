@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN- My Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ 
+
+<body>
+    <?php include 'header.html'; ?>
+    <div class="container">
+        <h1>EDUCATION HUB</h1>
+        <form action="form_handler.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+			<label for="Institution">Institution:</label><br>
+            <input type="text" id="Institution" Institution="Institution" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+                        <label for="Password">Password:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <input type="submit" value="Sign up">
+			<input type="submit" value="Login">
+			<input type="submit" value="Forgot Password">
+			
+        </form>
+   
+    
+    </div>
+    <?php include 'footer.html'; ?>
+
+<!-- footer.html -->
+<footer>
+    <p>&copy; 2024 Education Web</p>
+</footer>
+
+	
+</body>
+    <a href="Home.html">Home</a>
+
+</html>
